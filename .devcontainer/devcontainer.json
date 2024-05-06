@@ -1,0 +1,16 @@
+{
+    "name": "Python with Snakemake",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "mamba activate snakemake-env",
+    "extensions": [
+      "ms-python.python",
+      "ms-toolsai.jupyter",
+      "tfehlmann.snakefmt",
+      "snakemake.snakemake-lang",
+      "GitHub.copilot",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+  
