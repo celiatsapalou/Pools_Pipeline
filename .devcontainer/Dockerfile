@@ -9,4 +9,4 @@ RUN mamba create --name snakemake-env -c bioconda -c conda-forge snakemake zsh -
     mamba init zsh && \
     mamba clean --all -y && \
     echo "source /workspace/mambaforge/bin/activate" >> ~/.bashrc && \
-    echo "conda activate snakemake" >>  ~/.bashrc
+    echo "conda activate snakemake-env" >>  ~/.bashrc
