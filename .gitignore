@@ -1,0 +1,15 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Snakemake
+.snakemake/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
