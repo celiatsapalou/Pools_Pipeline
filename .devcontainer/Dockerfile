@@ -1,5 +1,5 @@
 # Use an official Miniconda image as a parent image
-FROM continuumio/miniconda3
+FROM condaforge/mambaforge
 
 # Set the working directory in the container
 WORKDIR /workspace
